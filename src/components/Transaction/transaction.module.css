@@ -1,0 +1,94 @@
+.list {
+    min-width: 380px;
+    padding: 5px;
+    border-radius: 13px 13px 0 0;
+    background: var(--light-blue);
+}
+
+.form {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 5px 0;
+    border-bottom: 1px solid #303645;
+    background: var(--light-blue);
+    cursor: pointer;
+}
+
+.inner {
+    width: 100%;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section > * {
+    margin: 2px 9px;
+}
+
+.valueGreen {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 160px;
+    font-weight: bold;
+    color: var(--green);
+}
+
+.valueWhite {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 160px;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.status {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 160px;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.icon {
+    opacity: 0.7;
+    color: var(--gray);
+    font-size: 35px;
+    margin-top: 3px;
+}
+
+.iconReverse {
+    opacity: 0.7;
+    color: var(--gray);
+    font-size: 35px;
+    margin-top: 3px;
+    transform: rotate(180deg);
+    height: 36px;
+}
+
+.path {
+    max-width: 116px;
+    max-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--gray);
+}
+
+.message {
+    color: var(--white);
+    background: #2D3445;
+    padding: 5px;
+    border-radius: 13px;
+    max-width: 300px;
+    max-height: 260px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}

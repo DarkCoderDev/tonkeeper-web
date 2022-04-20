@@ -1,0 +1,9 @@
+.TextArea {
+    font-size: 17px;
+    border-radius: 13px;
+    outline: none;
+    padding: 4px 5px;
+    margin: 10px 0;
+    min-height: 100px;
+    resize: none;
+}

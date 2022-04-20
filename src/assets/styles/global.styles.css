@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-blue: #131923;
+    --light-blue: #242B3B;
+    --green: #69C889;
+    --gray: #8A91A1;
+    --white: #fffdfd;
+    font-family: 'Montserrat', sans-serif;
+}
